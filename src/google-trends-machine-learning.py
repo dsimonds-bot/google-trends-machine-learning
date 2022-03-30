@@ -76,14 +76,20 @@ data.info()
 data.describe()
 
 
-# In[6]:
+# In[5]:
 
 
 # Plotting monthly moving average of interest over time
 data['Alternative Investments'].rolling(4).mean().plot()
 
 
-# In[2]:
+# In[6]:
+
+
+print('hello world testing the .py solution')
+
+
+# In[7]:
 
 
 get_ipython().system('jupyter nbconvert --to script google-trends-machine-learning.ipynb')
