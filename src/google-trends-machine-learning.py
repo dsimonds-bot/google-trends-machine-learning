@@ -83,13 +83,13 @@ data.describe()
 data['Alternative Investments'].rolling(4).mean().plot()
 
 
-# In[11]:
+# In[13]:
 
 
 print('hello world testing the .py solution, part 2')
 
 
-# In[12]:
+# In[14]:
 
 
 get_ipython().system('jupyter nbconvert --to script google-trends-machine-learning.ipynb')
